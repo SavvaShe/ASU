@@ -17,5 +17,6 @@ public class AsuMrNull {
         private int dorNazn;
         private int kolVag;
         private int prVag;
+        private int kodStanOP;
         private String prVagDecoding;
 }

@@ -16,6 +16,7 @@ public class AsuMrNullRowMapper implements RowMapper<AsuMrNull> {
         asuMrNull.setDorNazn(rs.getInt("dor_nazn"));
         asuMrNull.setKolVag(rs.getInt("kol_vag"));
         asuMrNull.setPrVag(rs.getInt("pr_vag"));
+        asuMrNull.setKodStanOP(rs.getInt("kod_stan_op"));
         asuMrNull.setPrVagDecoding(decoding(rs.getInt("pr_vag")));
         return asuMrNull;
     }
